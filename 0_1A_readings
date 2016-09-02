@@ -1,11 +1,9 @@
-rrenoltage Évoltage across thermistor:
+voltage across thermistor:
 2.88
 resistance of Rt:
 81666.67
 voltage across AD590
 2.92
-current on AD590
-0.00
 temperature:
 18.35
 voltage across thermistor:
@@ -14,8 +12,6 @@ resistance of Rt:
 82990.66
 voltage across AD590
 2.92
-current on AD590
-0.00
 temperature:
 19.33
 voltage across thermistor:
@@ -24,8 +20,6 @@ resistance of Rt:
 81666.67
 voltage across AD590
 2.92
-current on AD590
-0.00
 temperature:
 18.84
 voltage across thermistor:
