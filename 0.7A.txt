@@ -1,686 +1,768 @@
 voltage across AD590
-3.01
+2.77
 temperature:
-28.12
+4.19
 voltage across thermistor:
-2.53
+4.14
 resistance of Rt:
-61428.57
+287727.18
 voltage across AD590
-3.01
+2.77
 temperature:
-28.12
+3.71
 voltage across thermistor:
-2.51
+4.14
 resistance of Rt:
-60472.44
+287727.18
 voltage across AD590
-3.01
+2.77
 temperature:
-28.12
+4.19
 voltage across thermistor:
-2.51
+4.14
 resistance of Rt:
-60472.44
+287727.18
 voltage across AD590
-3.01
+2.77
 temperature:
-28.12
+3.71
 voltage across thermistor:
-2.53
+4.14
 resistance of Rt:
-61428.57
+287727.18
 voltage across AD590
-3.01
+2.77
 temperature:
-28.12
+4.19
 voltage across thermistor:
-2.51
+4.14
 resistance of Rt:
-60472.44
+287727.18
 voltage across AD590
-3.01
+2.77
 temperature:
-28.12
+4.19
 voltage across thermistor:
-2.53
+4.14
 resistance of Rt:
-61428.57
+287727.18
 voltage across AD590
-3.01
+2.77
 temperature:
-28.12
+3.71
 voltage across thermistor:
-2.53
+4.14
 resistance of Rt:
-61428.57
+287727.18
 voltage across AD590
-3.01
+2.77
 temperature:
-28.12
+3.71
 voltage across thermistor:
-2.51
+4.14
 resistance of Rt:
-60472.44
+287727.18
 voltage across AD590
-3.01
+2.77
 temperature:
-28.12
+3.71
 voltage across thermistor:
-2.51
+4.14
 resistance of Rt:
-60472.44
+287727.18
 voltage across AD590
-3.01
+2.77
 temperature:
-28.12
+4.19
 voltage across thermistor:
-2.53
+4.14
 resistance of Rt:
-61428.57
+287727.18
 voltage across AD590
-3.01
+2.77
 temperature:
-28.12
+4.19
 voltage across thermistor:
-2.51
+4.14
 resistance of Rt:
-60472.44
+287727.18
 voltage across AD590
-3.01
+2.77
 temperature:
-28.12
+4.19
 voltage across thermistor:
-2.53
+4.14
 resistance of Rt:
-61428.57
+287727.18
 voltage across AD590
-3.01
+2.77
 temperature:
-28.12
+3.71
 voltage across thermistor:
-2.53
+4.14
 resistance of Rt:
-61428.57
+287727.18
 voltage across AD590
-3.01
+2.77
 temperature:
-28.12
+3.71
 voltage across thermistor:
-2.51
+4.14
 resistance of Rt:
-60472.44
+287727.18
 voltage across AD590
-3.01
+2.77
 temperature:
-28.12
+3.71
 voltage across thermistor:
-2.51
+4.14
 resistance of Rt:
-60472.44
+287727.18
 voltage across AD590
-3.01
+2.77
 temperature:
-28.12
+4.19
 voltage across thermistor:
-2.51
+4.14
 resistance of Rt:
-60472.44
+287727.18
 voltage across AD590
-3.01
+2.77
 temperature:
-28.12
+4.19
 voltage across thermistor:
-2.51
+4.14
 resistance of Rt:
-60472.44
+287727.18
 voltage across AD590
-3.01
+2.77
 temperature:
-28.12
+4.19
 voltage across thermistor:
-2.51
+4.14
 resistance of Rt:
-60472.44
+287727.18
 voltage across AD590
-3.01
+2.77
 temperature:
-28.12
+3.71
 voltage across thermistor:
-2.51
+4.14
 resistance of Rt:
-60472.44
+287727.18
 voltage across AD590
-3.01
+2.77
 temperature:
-28.12
+3.71
 voltage across thermistor:
-2.51
+4.14
 resistance of Rt:
-60472.44
+287727.18
 voltage across AD590
-3.01
+2.77
 temperature:
-28.12
+4.19
 voltage across thermistor:
-2.51
+4.14
 resistance of Rt:
-60472.44
+287727.18
 voltage across AD590
-3.01
+2.77
 temperature:
-28.12
+4.19
 voltage across thermistor:
-2.51
+4.14
 resistance of Rt:
-60472.44
+287727.18
 voltage across AD590
-3.01
+2.77
 temperature:
-28.12
+4.19
 voltage across thermistor:
-2.51
+4.16
 resistance of Rt:
-60472.44
+295813.93
 voltage across AD590
-3.01
+2.77
 temperature:
-28.12
+3.71
 voltage across thermistor:
-2.51
+4.14
 resistance of Rt:
-60472.44
+287727.18
 voltage across AD590
-3.01
+2.77
 temperature:
-28.12
+3.71
 voltage across thermistor:
-2.51
+4.14
 resistance of Rt:
-60472.44
+287727.18
 voltage across AD590
-3.01
+2.77
 temperature:
-28.12
+3.71
 voltage across thermistor:
-2.51
+4.16
 resistance of Rt:
-60472.44
+295813.93
 voltage across AD590
-3.01
+2.77
 temperature:
-28.12
+4.19
 voltage across thermistor:
-2.51
+4.14
 resistance of Rt:
-60472.44
+287727.18
 voltage across AD590
-3.01
+2.77
 temperature:
-28.12
+4.19
 voltage across thermistor:
-2.51
+4.14
 resistance of Rt:
-60472.44
+287727.18
 voltage across AD590
-3.01
+2.76
 temperature:
-28.12
+3.22
 voltage across thermistor:
-2.51
+4.14
 resistance of Rt:
-60472.44
+287727.18
 voltage across AD590
-3.01
+2.77
 temperature:
-28.12
+3.71
 voltage across thermistor:
-2.51
+4.14
 resistance of Rt:
-60472.44
+287727.18
 voltage across AD590
-3.01
+2.77
 temperature:
-28.12
+4.19
 voltage across thermistor:
-2.51
+4.14
 resistance of Rt:
-60472.44
+287727.18
 voltage across AD590
-3.01
+2.77
 temperature:
-28.12
+3.71
 voltage across thermistor:
-2.51
+4.16
 resistance of Rt:
-60472.44
+295813.93
 voltage across AD590
-3.01
+2.77
 temperature:
-28.12
+4.19
 voltage across thermistor:
-2.51
+4.14
 resistance of Rt:
-60472.44
+287727.18
 voltage across AD590
-3.01
+2.77
 temperature:
-28.12
+4.19
 voltage across thermistor:
-2.51
+4.14
 resistance of Rt:
-60472.44
+287727.18
 voltage across AD590
-3.01
+2.77
 temperature:
-28.12
+3.71
 voltage across thermistor:
-2.51
+4.14
 resistance of Rt:
-60472.44
+287727.18
 voltage across AD590
-3.01
+2.77
 temperature:
-28.12
+3.71
 voltage across thermistor:
-2.51
+4.14
 resistance of Rt:
-60472.44
+287727.18
 voltage across AD590
-3.01
+2.77
 temperature:
-28.12
+3.71
 voltage across thermistor:
-2.51
+4.14
 resistance of Rt:
-60472.44
+287727.18
 voltage across AD590
-3.01
+2.77
 temperature:
-28.12
+4.19
 voltage across thermistor:
-2.51
+4.14
 resistance of Rt:
-60472.44
+287727.18
 voltage across AD590
-3.01
+2.77
 temperature:
-28.12
+4.19
 voltage across thermistor:
-2.51
+4.14
 resistance of Rt:
-60472.44
+287727.18
 voltage across AD590
-3.01
+2.77
 temperature:
-28.12
+4.19
 voltage across thermistor:
-2.51
+4.14
 resistance of Rt:
-60472.44
+287727.18
 voltage across AD590
-3.01
+2.77
 temperature:
-28.12
+3.71
 voltage across thermistor:
-2.51
+4.14
 resistance of Rt:
-60472.44
+287727.18
 voltage across AD590
-3.01
+2.77
 temperature:
-28.12
+3.71
 voltage across thermistor:
-2.51
+4.14
 resistance of Rt:
-60472.44
+287727.18
 voltage across AD590
-3.01
+2.77
 temperature:
-28.12
+4.19
 voltage across thermistor:
-2.51
+4.14
 resistance of Rt:
-60472.44
+287727.18
 voltage across AD590
-3.01
+2.77
 temperature:
-28.12
+4.19
 voltage across thermistor:
-2.51
+4.14
 resistance of Rt:
-60472.44
+287727.18
 voltage across AD590
-3.01
+2.77
 temperature:
-28.12
+4.19
 voltage across thermistor:
-2.51
+4.16
 resistance of Rt:
-60472.44
+295813.93
 voltage across AD590
-3.01
+2.77
 temperature:
-28.12
+4.19
 voltage across thermistor:
-2.51
+4.14
 resistance of Rt:
-60472.44
+287727.18
 voltage across AD590
-3.01
+2.77
 temperature:
-28.12
+3.71
 voltage across thermistor:
-2.51
+4.14
 resistance of Rt:
-60472.44
+287727.18
 voltage across AD590
-3.01
+2.77
 temperature:
-28.12
+4.19
 voltage across thermistor:
-2.51
+4.14
 resistance of Rt:
-60472.44
+287727.18
 voltage across AD590
-3.01
+2.77
 temperature:
-28.12
+3.71
 voltage across thermistor:
-2.51
+4.14
 resistance of Rt:
-60472.44
+287727.18
 voltage across AD590
-3.01
+2.77
 temperature:
-28.12
+4.19
 voltage across thermistor:
-2.51
+4.14
 resistance of Rt:
-60472.44
+287727.18
 voltage across AD590
-3.01
+2.77
 temperature:
-28.12
+4.19
 voltage across thermistor:
-2.51
+4.14
 resistance of Rt:
-60472.44
+287727.18
 voltage across AD590
-3.01
+2.77
 temperature:
-28.12
+4.19
 voltage across thermistor:
-2.51
+4.14
 resistance of Rt:
-60472.44
+287727.18
 voltage across AD590
-3.01
+2.77
 temperature:
-28.12
+3.71
 voltage across thermistor:
-2.51
+4.14
 resistance of Rt:
-60472.44
+287727.18
 voltage across AD590
-3.01
+2.77
 temperature:
-28.12
+4.19
 voltage across thermistor:
-2.51
+4.14
 resistance of Rt:
-60472.44
+287727.18
 voltage across AD590
-3.02
+2.77
 temperature:
-28.61
+4.19
 voltage across thermistor:
-2.51
+4.14
 resistance of Rt:
-60472.44
+287727.18
 voltage across AD590
-3.01
+2.77
 temperature:
-28.12
+4.19
 voltage across thermistor:
-2.51
+4.14
 resistance of Rt:
-60472.44
+287727.18
 voltage across AD590
-3.01
+2.77
 temperature:
-28.12
+4.19
 voltage across thermistor:
-2.51
+4.14
 resistance of Rt:
-60472.44
+287727.18
 voltage across AD590
-3.01
+2.77
 temperature:
-28.12
+3.71
 voltage across thermistor:
-2.51
+4.14
 resistance of Rt:
-60472.44
+287727.18
 voltage across AD590
-3.01
+2.77
 temperature:
-28.12
+3.71
 voltage across thermistor:
-2.51
+4.14
 resistance of Rt:
-60472.44
+287727.18
 voltage across AD590
-3.01
+2.77
 temperature:
-28.12
+3.71
 voltage across thermistor:
-2.51
+4.14
 resistance of Rt:
-60472.44
+287727.18
 voltage across AD590
-3.01
+2.77
 temperature:
-28.12
+4.19
 voltage across thermistor:
-2.51
+4.14
 resistance of Rt:
-60472.44
+287727.18
 voltage across AD590
-3.01
+2.77
 temperature:
-28.12
+4.19
 voltage across thermistor:
-2.51
+4.16
 resistance of Rt:
-60472.44
+295813.93
 voltage across AD590
-3.01
+2.77
 temperature:
-28.12
+4.19
 voltage across thermistor:
-2.51
+4.16
 resistance of Rt:
-60472.44
+295813.93
 voltage across AD590
-3.01
+2.77
 temperature:
-28.12
+3.71
 voltage across thermistor:
-2.51
+4.14
 resistance of Rt:
-60472.44
+287727.18
 voltage across AD590
-3.02
+2.77
 temperature:
-28.61
+4.19
 voltage across thermistor:
-2.51
+4.14
 resistance of Rt:
-60472.44
+287727.18
 voltage across AD590
-3.01
+2.77
 temperature:
-28.12
+4.19
 voltage across thermistor:
-2.51
+4.16
 resistance of Rt:
-60472.44
+295813.93
 voltage across AD590
-3.01
+2.77
 temperature:
-28.12
+4.19
 voltage across thermistor:
-2.51
+4.14
 resistance of Rt:
-60472.44
+287727.18
 voltage across AD590
-3.01
+2.77
 temperature:
-28.12
+3.71
 voltage across thermistor:
-2.51
+4.14
 resistance of Rt:
-60472.44
+287727.18
 voltage across AD590
-3.01
+2.77
 temperature:
-28.12
+3.71
 voltage across thermistor:
-2.51
+4.16
 resistance of Rt:
-60472.44
+295813.93
 voltage across AD590
-3.01
+2.78
 temperature:
-28.12
+5.17
 voltage across thermistor:
-2.51
+4.14
 resistance of Rt:
-60472.44
+287727.18
 voltage across AD590
-3.01
+2.77
 temperature:
-28.12
+3.71
 voltage across thermistor:
-2.51
+4.14
 resistance of Rt:
-60472.44
+287727.18
 voltage across AD590
-3.01
+2.77
 temperature:
-28.12
+3.71
 voltage across thermistor:
-2.51
+4.14
 resistance of Rt:
-60472.44
+287727.18
 voltage across AD590
-3.01
+2.77
 temperature:
-28.12
+4.19
 voltage across thermistor:
-2.51
+4.14
 resistance of Rt:
-60472.44
+287727.18
 voltage across AD590
-3.01
+2.77
 temperature:
-28.12
+4.19
 voltage across thermistor:
-2.51
+4.14
 resistance of Rt:
-60472.44
+287727.18
 voltage across AD590
-3.01
+2.77
 temperature:
-28.12
+3.71
 voltage across thermistor:
-2.51
+4.14
 resistance of Rt:
-60472.44
+287727.18
 voltage across AD590
-3.01
+2.77
 temperature:
-28.12
+3.71
 voltage across thermistor:
-2.51
+4.14
 resistance of Rt:
-60472.44
+287727.18
 voltage across AD590
-3.02
+2.77
 temperature:
-28.61
+4.19
 voltage across thermistor:
-2.51
+4.14
 resistance of Rt:
-60472.44
+287727.18
 voltage across AD590
-3.01
+2.77
 temperature:
-28.12
+4.19
 voltage across thermistor:
-2.51
+4.14
 resistance of Rt:
-60472.44
+287727.18
 voltage across AD590
-3.01
+2.77
 temperature:
-28.12
+4.19
 voltage across thermistor:
-2.51
+4.14
 resistance of Rt:
-60472.44
+287727.18
 voltage across AD590
-3.01
+2.77
 temperature:
-28.12
+4.19
 voltage across thermistor:
-2.51
+4.14
 resistance of Rt:
-60472.44
+287727.18
 voltage across AD590
-3.01
+2.77
 temperature:
-28.12
+4.19
 voltage across thermistor:
-2.51
+4.14
 resistance of Rt:
-60472.44
+287727.18
 voltage across AD590
-3.01
+2.77
 temperature:
-28.12
+4.19
 voltage across thermistor:
-2.51
+4.14
 resistance of Rt:
-60472.44
+287727.18
 voltage across AD590
-3.01
+2.77
 temperature:
-28.12
+4.19
 voltage across thermistor:
-2.51
+4.14
 resistance of Rt:
-60472.44
+287727.18
 voltage across AD590
-3.01
+2.77
 temperature:
-28.12
+4.19
 voltage across thermistor:
-2.51
+4.14
 resistance of Rt:
-60472.44
+287727.18
 voltage across AD590
-3.01
+2.77
 temperature:
-28.12
+4.19
 voltage across thermistor:
-2.51
+4.14
 resistance of Rt:
-60472.44
+287727.18
 voltage across AD590
-3.01
+2.77
 temperature:
-28.12
+3.71
 voltage across thermistor:
-2.51
+4.16
+resistance of Rt:
+295813.93
+voltage across AD590
+2.77
+temperature:
+3.71
+voltage across thermistor:
+4.14
+resistance of Rt:
+287727.18
+voltage across AD590
+2.77
+temperature:
+3.71
+voltage across thermistor:
+4.14
+resistance of Rt:
+287727.18
+voltage across AD590
+2.77
+temperature:
+4.19
+voltage across thermistor:
+4.14
+resistance of Rt:
+287727.18
+voltage across AD590
+2.77
+temperature:
+4.19
+voltage across thermistor:
+4.14
+resistance of Rt:
+287727.18
+voltage across AD590
+2.77
+temperature:
+3.71
+voltage across thermistor:
+4.14
+resistance of Rt:
+287727.18
+voltage across AD590
+2.77
+temperature:
+3.71
+voltage across thermistor:
+4.14
+resistance of Rt:
+287727.18
+voltage across AD590
+2.78
+temperature:
+4.68
+voltage across thermistor:
+4.14
+resistance of Rt:
+287727.18
+voltage across AD590
+2.77
+temperature:
+4.19
+voltage across thermistor:
+4.14
+resistance of Rt:
+287727.18
+voltage across AD590
+2.77
+temperature:
+4.19
+voltage across thermistor:
+4.14
+resistance of Rt:
+287727.18
+voltage across AD590
+2.77
+temperature:
+4.19
+voltage across thermistor:
+4.14
+resistance of Rt:
+287727.18

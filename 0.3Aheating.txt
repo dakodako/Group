@@ -1,7 +1,3 @@
-vemperatueºvoltage across thermistor:
-2.33
-resistance of Rt:
-52500.00
 voltage across AD590
 3.05
 temperature:
@@ -2954,7 +2950,3 @@ voltage across thermistor:
 2.27
 resistance of Rt:
 50071.94
-voltage across AD590
-3.06
-temperature:
-33.00
