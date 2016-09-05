@@ -15,7 +15,7 @@ void loop() {
   sensorValue = analogRead(sensorPin);
   //mappedValue = map(sensorValue,0,1023,-55,150);
   float voltage = sensorValue * (5.0 / 1023.0);
-  float temperature = (voltage/resistor) * (10^6) + 273.15;
+  float temperature = voltage * 200 + 273.15;
   Serial.println(sensorValue);
   Serial.println(voltage);
 }
