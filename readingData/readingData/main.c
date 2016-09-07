@@ -10,6 +10,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <ctype.h>
+#include <math.h>
 struct node {
     double value;
     struct node *next;
@@ -17,7 +18,11 @@ struct node {
 
 typedef struct node node_t;
 typedef  node_t *list;
-
+long double calculateTemperature(double R){
+    long double T;
+    T = 24.42 * exp(-7.673*pow(10, -6)*R) + 75.44 * exp(-3.178*pow(10,-5 )* R);
+    return T;
+}
 list list_insert(list L, double value){
     //printf("insert happening\n");
     
@@ -42,6 +47,19 @@ void print(list L){
         L = L -> next;
     }
 }
+void fprint_list(list L, FILE *myFile){
+    while(L != NULL){
+        fprintf(myFile, "%.2f,",L->value);
+        L = L -> next;
+    }
+}
+void fprint_list_for_temperature(list L,FILE *myFile){
+    while(L != NULL){
+        long double T = calculateTemperature( L -> value);
+        fprintf(myFile, "%.2Lf,",T);
+        L = L ->next;
+    }
+}
 
 int main(int argc, const char * argv[]) {
     // insert code here...
@@ -52,7 +70,9 @@ int main(int argc, const char * argv[]) {
     list temperature;
     list VRt;
     list Rt;
-    FILE *myFile = fopen("../../0.2Aheating.txt","r");
+    FILE *myFile = fopen("../../0.6Aheating.txt","r");
+    FILE *outputFile = fopen("outputTemperature.txt","a");
+    FILE *outputFileT = fopen("outputTemperatureRt.txt","a");
     int k = 0;
     char *num = (char*)malloc(100*sizeof(char));
     size_t characters;
@@ -94,7 +114,7 @@ int main(int argc, const char * argv[]) {
         
         
         
-       /* if(k == 1){
+        /*if(k == 1){
             //double value = atoi(num);
             double value;
             sscanf(num, "%lf",&value);
@@ -140,9 +160,13 @@ int main(int argc, const char * argv[]) {
     printf("\n");
     printf("voltageAD590: ");
     print(voltageAD590);
+    
     printf("\n");
     printf("VRt: ");
     print(VRt);
+    
+    fprint_list(temperature, outputFile);
+    fprint_list_for_temperature(Rt, outputFileT);
     //printf("\n");
     
     
