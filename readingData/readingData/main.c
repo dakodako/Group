@@ -20,8 +20,11 @@ typedef struct node node_t;
 typedef  node_t *list;
 long double calculateTemperature(double R){
     long double T;
-    T = 24.42 * exp(-7.673*pow(10, -6)*R) + 75.44 * exp(-3.178*pow(10,-5 )* R);
+    T = 25.5 * exp(-6.807*pow(10, -5)*R) + 76.82 * exp(-0.0003327* R); // not sure about the +1.4
     return T;
+}
+double calculateVoltageAcrossRt(double value){
+    return ((value*1.0)*255)/1024;
 }
 list list_insert(list L, double value){
     //printf("insert happening\n");
@@ -60,7 +63,21 @@ void fprint_list_for_temperature(list L,FILE *myFile){
         L = L ->next;
     }
 }
-
+void fprint_list_for_voltageRt(list L, FILE *myFile){
+    while(L != NULL){
+        double V = calculateVoltageAcrossRt(L -> value);
+        fprintf(myFile, "%.2f,",V);
+        L = L -> next;
+    }
+}
+void fprint_list_for_Rt(list L, FILE *myFile){
+    while(L != NULL){
+        double V = calculateVoltageAcrossRt(L -> value);
+        double R = (V*1.0)/((5 - V)/60000);
+        fprintf(myFile, "%.2f,",R);
+        L  = L->next;
+    }
+}
 int main(int argc, const char * argv[]) {
     // insert code here...
     
@@ -71,8 +88,10 @@ int main(int argc, const char * argv[]) {
     list VRt;
     list Rt;
     FILE *myFile = fopen("../../0.6Aheating.txt","r");
-    FILE *outputFile = fopen("outputTemperature.txt","a");
-    FILE *outputFileT = fopen("outputTemperatureRt.txt","a");
+    FILE *outputFileT = fopen("outputTemperature.txt","a");
+   // FILE *outputFileTRt = fopen("outputTemperatureRt.txt","a");
+    FILE *outputFileVRt = fopen("outputVRt.txt","a");
+    FILE *outputFileRt = fopen("outputRt.txt","a");
     int k = 0;
     char *num = (char*)malloc(100*sizeof(char));
     size_t characters;
@@ -100,7 +119,7 @@ int main(int argc, const char * argv[]) {
         } else if (k == 7){
             double value;
             sscanf(num,"%lf",&value);
-            Rt = list_insert(Rt, value);
+            Rt = list_insert(Rt, value/10);
         } else {
             k = k + 1;
             if(k == 8){
@@ -114,7 +133,7 @@ int main(int argc, const char * argv[]) {
         
         
         
-        /*if(k == 1){
+       /* if(k == 1){
             //double value = atoi(num);
             double value;
             sscanf(num, "%lf",&value);
@@ -135,7 +154,7 @@ int main(int argc, const char * argv[]) {
         } else if(k == 9){
             double value = atoi(num);
             sscanf(num, "%lf",&value);
-            Rt= list_insert(Rt, value);
+            Rt= list_insert(Rt, value/10);
             
 
         } else {
@@ -157,16 +176,23 @@ int main(int argc, const char * argv[]) {
     }
     //printf("voltageAD590:");
     //print(voltageAD590);
-    printf("\n");
-    printf("voltageAD590: ");
-    print(voltageAD590);
+   // printf("\n");
+    //printf("voltageAD590: ");
+    //print(voltageAD590);
     
-    printf("\n");
-    printf("VRt: ");
-    print(VRt);
+    //printf("\n");
+    //printf("Rt: ");
+    //print(Rt);
+   // printf("T\n");
+    print(temperature);
+    //print(Rt);
+    fprint_list(temperature, outputFileT);
+    fprint_list_for_voltageRt(VRt, outputFileVRt);
+    fprint_list_for_Rt(VRt, outputFileRt);
+   // fprint_list(Rt, outputFileTRt);
+    //fprint_list(temperature, outputFileTRt);
+    //fprint_list_for_temperature(Rt, outputFileTRt);
     
-    fprint_list(temperature, outputFile);
-    fprint_list_for_temperature(Rt, outputFileT);
     //printf("\n");
     
     
