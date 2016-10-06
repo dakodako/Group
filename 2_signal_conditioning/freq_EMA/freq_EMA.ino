@@ -1,4 +1,4 @@
-
+   
 int pin = 7;
 int PWM_pin = 3;
 int stable_counter=0;
@@ -28,6 +28,7 @@ void loop()
   period = duration_high + duration_low;
   frequency = 1000000/period;
   EMA_S = (EMA_a*frequency) + ((1-EMA_a)*EMA_S);
+  delay(1000);
   Serial.println(EMA_S);
   //Serial.println(frequency);
 }

@@ -1,0 +1,39 @@
+basic fitting
+
+y = p1*x^10 + p2*x^9 +
+      p3*x^8 + p4*x^7 +
+      p5*x^6 + p6*x^5 +
+      p7*x^4 + p8*x^3 +
+      p9*x^2 + p10*x +
+      p11 
+
+Coefficients:
+  p1 = 1.5367e-12
+  p2 = -9.6224e-10
+  p3 = 1.9461e-07
+  p4 = -1.9845e-05
+  p5 = 0.0011842
+  p6 = -0.043852
+  p7 = 1.0219
+  p8 = -14.717
+  p9 = 125.13
+  p10 = -538.72
+  p11 = 4559.6
+
+Norm of residuals = 
+     1655.9
+
+
+General model Exp2:
+     f(x) = a*exp(b*x) + c*exp(d*x)
+Coefficients (with 95% confidence bounds):
+       a =         603  (497.3, 708.8)
+       b =    -0.07292  (-0.1195, -0.02636)
+       c =        3037  (2902, 3173)
+       d =     0.01422  (0.01343, 0.01501)
+
+Goodness of fit:
+  SSE: 2.801e+06
+  R-square: 0.9903
+  Adjusted R-square: 0.9902
+  RMSE: 89.84
