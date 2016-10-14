@@ -11,7 +11,7 @@
 
 #include <PID_v1.h>
 
-#define PIN_INPUT A0
+#define SET_PIN_INPUT A0
 #define PIN_OUTPUT_COOL 3
 #define PIN_OUTPUT_HEAT 5
 const long double p1 = -8.766e-13;
@@ -41,8 +41,8 @@ double consKp=1, consKi=0.05, consKd=0.25;
 PID myPID(&Input, &Output, &Setpoint, consKp, consKi, consKd, DIRECT);
 int mode;
 // Pin Assignments
-const int INPUTPIN 7;
-const int SETPOINTPIN A0;
+//const int INPUTPIN 7;
+//const int SETPOINTPIN A0;
 // frequency reading
 unsigned long duration_high;
 unsigned long duration_low;
@@ -50,7 +50,7 @@ unsigned long period;
 unsigned long frequency;
 double readTemperature(double frequency){
   double result;
-  if(mode == 1){
+  if(mode == COOL){
     result = q1 * pow(frequency,4) + q2 * pow(frequency,3) + q3 * pow(frequency,2) + q4 *frequency + q5;
   } else {
     result = p1 * pow(frequency,4) + p2 * pow(frequency,3) + p3 * pow(frequency,2) + p4 *frequency + p5;
@@ -64,22 +64,24 @@ void setup()
   duration_low = pulseIn(INPUTPIN, LOW);
   period = duration_high + duration_low;
   frequency = 1000000/period;
-  mode = 2;
-  double temperature = readTemperature(frequency)-5)/40)*255;
+  mode = HEAT;
+  double temperature = ((readTemperature(frequency)-5)/40)*255;
   
   Input = ((temperature - 5)/40) * 255;
   Setpoint = (((20-5) * 1.0)/40) * 255;
   
   //turn the PID on
   myPID.SetMode(AUTOMATIC);
+  myPID.SetOutputLimits(-255,255);
+  //myPID.SetSampleTime(1000);
 }
 
 void loop()
 {
   //Input = analogRead(PIN_INPUT);
-  double temperature = readTemperature(frequency)-5)/40)*255;
+  double temperature = readTemperature(frequency);
   Input = ((temperature - 5)/40) * 255;
-  Setpoint = analogRead(PIN_INPUT);
+  Setpoint = analogRead(SET_PIN_INPUT);
   double gap = abs(Setpoint-Input); //distance away from setpoint
   
   if (gap < 10)
@@ -97,10 +99,11 @@ void loop()
     mode = HEAT;
   }
   myPID.Compute();
-  if(mode == COOL){
-    analogWrite(PIN_OUTPUT_COOL, Output);
+  Serial.println("output = %d\n", Output);
+  if(mode == COOL && Output < 0){
+    analogWrite(PIN_OUTPUT_COOL, -Output);
     analogWrite(PIN_OUTPUT_HEAT, 0);
-  } else {
+  } else if(mode == HEAT && Output >= 0){
     analogWrite(PIN_OUTPUT_HEAT, Output);
     analogWrite(PIN_OUTPUT_COOL, 0);
   }
